@@ -3,12 +3,12 @@
     padding: 0;
     margin: 0;
 }
-/*created a root for colors*/
+/*Main colors used on page*/
 :root {
     --primary: #ffffff;
     --secondary:#0072bb ;
 }
-
+/*Bacground color image for entire site*/
 body {
     background-color:#d9dcd6 ;
 }
@@ -50,7 +50,7 @@ a {
     color: var(--primary);
     text-decoration: none;
 }
-
+/*Font for the content within our articles and side article*/
 p {
     font-size: 16px;
 }
@@ -79,7 +79,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*combined benefit articles under benefits class*/
+/*Styles for our main 3 articles*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
