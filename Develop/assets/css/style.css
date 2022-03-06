@@ -79,7 +79,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*combined benefit articles under benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,57 +89,22 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
-    color: var(--primary);
+    color: var(--primary)
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: var(--primary);
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: var(--primary);
-}
-
-.benefit-lead h3 {
+/*combined all benefits h3 styles*/
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*combined all benefits img styles*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*combined the content articles in one style*/
+.content article{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,52 +112,15 @@ p {
     background-color: var(--secondary);
     color: var(--primary);
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--secondary);;
-    color: var(--primary);
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-
-.search-engine-optimization img {
+/*combined the content article image styles*/
+.content article img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*combined the content article h2 in one style*/
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
     clear: both;
